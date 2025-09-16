@@ -23,7 +23,7 @@ let arrowFun = (e,f)=> e*f;
 console.log(arrowFun(10,3));
 
 
-//arrow funciton no need function keyword,qurly bracket & return...
+//arrow funciton no need function keyword,(qurly {}bracket & return No need if single statement)...
 //arrow will work this way
 
 let myArroFun = (x,y) => { return x+y };
@@ -37,5 +37,6 @@ console.log(myArroFun(1,2));
 
 //let arFn = (m,n) => return m*n; 
 //console.log(arFn(2,3));        //unexpected token return
+
 
 
