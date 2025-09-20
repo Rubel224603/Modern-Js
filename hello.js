@@ -4,3 +4,4 @@ function myWork(){
 }
 
 myWork();
+var a=10;
