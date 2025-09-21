@@ -67,3 +67,37 @@ greetUser(sayHello); //sayHello  is the callback function...
 (function group(){
     console.log("group operator");
 })();
+
+
+//functin recursion....
+
+function faceWater(count){
+    console.log("Recursion..." + count);
+    if(count===10){                             //recusion need one base condition ... without it progrtam will be crash...
+        console.log("Recursion over");
+        return;
+
+    }
+
+    faceWater(count +1);
+}
+faceWater(1);
+
+//problem factorial ....
+
+function fact(f){
+    console.log("Factorial...");
+  
+    if(f==1){
+        console.log("factorial Over");
+       return 1 ;
+    }
+   return f * fact(f-1);
+  
+
+}
+console.log(fact(5));
+
+
+
+
