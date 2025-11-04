@@ -26,3 +26,12 @@ let result = sum(10);
         return anotherNumber;
     }
     n(5);
+
+    // array destructure....
+
+    const arr=[21,22,34];
+    console.log("The array = " + JSON.stringify(arr));
+    const [a,b]= arr;
+    console.log("array destructure");
+    console.log(a);
+    console.log(b);
