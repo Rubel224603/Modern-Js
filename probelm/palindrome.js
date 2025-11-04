@@ -56,4 +56,4 @@ function palinDrome(data){
 
   
 }
- palinDrome(10,20);
+ palinDrome(121);
