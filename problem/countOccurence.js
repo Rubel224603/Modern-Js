@@ -1,7 +1,7 @@
 // Count Occurrences
 // Input: "banana"
 // Output: { b:1, a:3, n:2 }
-const input = 'banana';
+const input = 'banana Bangla B banb ';
 let output = {};
 
 for(let i =0; i<input.length;i++){
@@ -15,5 +15,6 @@ for(let i =0; i<input.length;i++){
     output[key] = 1;
    
    }
+   console.log(output);
 }
-console.log(output);
+//console.log(output);
