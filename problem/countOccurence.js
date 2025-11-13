@@ -17,4 +17,5 @@ for(let i =0; i<input.length;i++){
    }
    console.log(output);
 }
-//console.log(output);
+console.log("\n Expected Output ");
+console.log(output);
