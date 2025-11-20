@@ -53,7 +53,7 @@ console.log("Larg Number: =" + largeNumber);
     console.log("Both are Not same reference");
  }
  
- if(ar1=== ar2){
+ if( ar1=== ar2){
     console.log("Both are same Refrence")
  }
 
